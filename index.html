@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>AIC</title>
+
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<a href="#" class="titulo">A.I.C</a>
+
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="AIC/index.html" class="nav-link">Home</a>
+					</li>
+				</ul>
+
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</nav>
+		</header>
+
+		<div class="row">
+
+			<main>
+				<!-- Coluna Esquerda -->
+				<div class="leftcolumn">
+					<div class="container">
+
+						<!----- Artigo um ----->
+						<div class="card-artigos">
+							<div class="filterDiv pragmatico">
+								<a href="responsabilidade.html">
+									<h2>Responsabilidade Social</h2>
+								</a>
+								<h5>8, Dezembro, 2021</h5>
+								<img src="responsabilidade_social.webp" alt="esp32" class="imagem">
+								<br>
+								<p>
+									O tema de responsabilidade social diz respeito ao cumprimento dos deveres e obrigações dos indivíduos e empresas com a sociedade em geral. 
+								</p>
+							</div> 
+						</div class="card">
+						<!---xx-- Artigo um --xx--->
+
+						<!----- Artigo dois ----->
+						<div class="card-artigos">
+							<div class="filterDiv pragmatico">
+								<a href="TIverde.html">
+									<h2>T.I Verde</h2>
+								</a>
+								<h5>10, Dezembro, 2021</h5>
+								<img src="TIVerde.jpg" alt="T.I Verde" class="imagem">
+								<br>
+								<p>
+									T.I verde é uma prática que está se tornando cada vez mais comum nos ambientes de tecnologia de informação. Onde nota-se uma preocupação na sustentabilidade ambiental.
+								</p>
+							</div> 
+						</div class="card">
+						<!---xx-- Artigo dois --xx--->
+
+						<!----- Artigo três ----->
+						<div class="card-artigos">
+							<div class="filterDiv pragmatico">
+								<a href="residuos.html">
+									<h2>Resíduos no Desenvolvimento de Tecnologia</h2>
+								</a>
+								<h5>20, Dezembro, 2021</h5>
+								<img src="residuo.jpg" alt="esp32" class="imagem">
+								<br>
+								<p>
+									Este artigo trata sobre a produção de resíduos que é criada durante o desenvolvimento de tecnologia no mundo atual.
+								</p>
+							</div> 
+						</div class="card">
+						<!---xx-- Artigo três --xx--->
+
+						<!----- Artigo quatro ----->
+						<div class="card-artigos">
+							<div class="filterDiv pragmatico">
+								<a href="residuos.html">
+									<h2>Inclusão Social em T.I</h2>
+								</a>
+								<h5>22, Dezembro, 2021</h5>
+								<img src="inclusao_social.jpg" alt="esp32" class="imagem">
+								<br>
+								<p>
+									Este é um tópico de extrema relevância hodiernamente, onde discute-se a importância de incluir indivíduos com as mais diferentes características no meio de tecnologia da informação.
+								</p>
+							</div> 
+						</div class="card">
+						<!---xx-- Artigo quatro --xx--->
+
+						<!----- Artigo cinco ----->
+						<div class="card-artigos">
+							<div class="filterDiv pragmatico">
+								<a href="residuos.html">
+									<h2>Educação Inclusiva</h2>
+								</a>
+								<h5>25, Dezembro, 2021</h5>
+								<img src="educacao_inclusiva.jpg" alt="esp32" class="imagem">
+								<br>
+								<p>
+									Educação inclusiva é um tema muito importante e que deve-se ser discutido, este artigo busca trazer mais informações para o leitor a respeito.
+								</p>
+							</div> 
+						</div class="card">
+						<!---xx-- Artigo cinco --xx--->
+
+						<!----- Artigo seis ----->
+						<div class="card-artigos">
+							<div class="filterDiv algoritmos">
+								<a href="pythonI.html">
+									<h2>Programação Básica em Python I</h2>
+								</a>
+								<h5>01, Setembro, 2021</h5>
+								<img src="python1.jpg" alt="Computador" class="imagem">
+								<br>
+								<p>
+									Neste artigo o leitor será apresentado aos conceitos básicos de algoritmos e estrutura de dados em Python.
+								</p>
+							</div> 
+						</div class="card">
+						<!---xx-- Artigo seis --xx--->
+
+						<!----- Artigo seis ----->
+						<div class="card-artigos">
+							<div class="filterDiv algoritmos">
+								<a href="AIC/Artigos/pythonII.html">
+									<h2>Programação Básica em Python II</h2>
+								</a>
+								<h5>01, Janeiro, 2022</h5>
+								<img src="pythonII.jpg" alt="Computador" class="imagem">
+								<br>
+								<p>
+									Continuação do primeiro artigo.
+									Aqui, o leitor será introduzido aos algoritmos e estrutura de dados, em Python.
+								</p>
+							</div> 
+						</div class="card">
+						<!---xx-- Artigo seis --xx--->
+
+					</div>
+			</main>
+
+				</aside>
+				<!-- Coluna Direita -->
+				<div class="rightcolumn">
+
+					<!-- Categorias - Filtro de Busca -->
+					<div class="card">
+						<h3>Categorias</h3><br>
+						<div id="myBtnContainer">
+						  <button class="btn active" onclick="filterSelection('todos')"> Todos</button>
+						  <br>
+						  <button class="btn" onclick="filterSelection('pragmatico')"> Conteúdo Pragmático</button>
+						  <br>
+						  <button class="btn" onclick="filterSelection('algoritmos')"> Algoritmos</button>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+
+		<!-- Rodapé -->
+		<footer> 
+			<div class="grupo-1">
+				<div class="box">
+					<figure>
+						<img src="c3.png" alt="logo do c3">
+					</figure>
+				</div>
+			
+				<div class="box">
+					<h2>Sobre o Projeto</h2>
+					<p>
+						Este projeto foi criado por estudantes do curso de bacharel em Sistemas de Informação (FURG) - com a intenção de apresentar conceitos básicos de algoritmos e estrutura de dados em Python.
+					</p>
+				</div>
+
+				
+				</div>
+			</div>
+
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>
