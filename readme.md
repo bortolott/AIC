@@ -1,8 +1,3 @@
-OBS: o layout foi alterado (cores), porém ainda é necessário dar uma estilizada diferente.
-Talvez, mudar as categorias seja uma boa, e tentar alterar a estrutura básica do menu e do footer.
-Site em desenvolvimento para a disciplina de atividade e integração curricular.
-
-
 Conteúdos pragmático:
 1) Resposabilidade Social / responsabilidade social corporativa / responsabilidade socioambiental
 2) TI Verde
